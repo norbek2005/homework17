@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1_text {
+    color: var(--Text, #363940);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.h2_text {
+    color: var(--Neutral-4, #95A1BB);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.text {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 61px;
+    margin-left: 30px;
+}
+
+hr {
+    width: 240px;
+    height: 1px;
+    flex-shrink: 0;
+    color: rgba(225, 229, 238, 1);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.text01 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 103px;
+    margin-left: 30px;
+}
+
+.text02 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 116px;
+    margin-left: 30px;
+}
+
+.text03 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 81px;
+    margin-left: 30px;
+}
+
+.text04 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 97px;
+    margin-left: 30px;
+}
+
+.frame {
+    display: flex;
+    gap: 20px;
+}
+
+.text1 {
+    color: var(--Text, #363940);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+p {
+    color: var(--Neutral-4, #95A1BB);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+.text2 {
+    color: #95A1BB;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.text3 {
+    color: var(--Text, #363940);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.star {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+h3 {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    color: rgba(149, 161, 187, 1);
+    margin-left: 117px;
+}
+
+.text4 {
+    color: #6E38F7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.text5 {
+    color: var(--Text, #363940);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.text6 {
+    color: #6E38F7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.box1 {
+    border: 1px solid rgba(225, 229, 238, 1);
+    border-radius: 5px;
+    width: 300px;
+    height: 396px;
+    flex-shrink: 0;
+    margin-top: 40px;
+}
+
+.box2 {
+    border: 1px solid rgba(225, 229, 238, 1);
+    border-radius: 5px;
+    width: 300px;
+    height: 396px;
+    flex-shrink: 0;
+    margin-top: 40px;
+}
+
+.box3 {
+    border: 1px solid rgba(225, 229, 238, 1);
+    border-radius: 5px;
+    width: 300px;
+    height: 396px;
+    flex-shrink: 0;
+    margin-top: 40px;
+}
+
+button {
+    border: 1px solid rgba(110, 56, 247, 1);
+    width: 240px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    color: var(--Primary, #6E38F7);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.button1 {
+    background: rgba(110, 56, 247, 1);
+    width: 240px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
